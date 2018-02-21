@@ -32,9 +32,7 @@ public class Employee
 
    public void raiseSalary(double byDecimalValue)
    {
-      if(byAbsoluteValue<=0 || byDecimalValue>=1)
-         return;
-      double raise = salary * byPercent / 100;
+      double raise = salary * byDecimalValue;
       salary += raise;
    }
 
