@@ -16,7 +16,8 @@ public class Driver
 
       // print out information about harry
       // use java.lang.System.out here
-      out.println("name=" + harry.getName() + ",salary=" + harry.getSalary());
+      //out.println("name=" + harry.getName() + ",salary=" + harry.getSalary()); step 4
+      out.println(harry); //step 4
    }
 }
 
