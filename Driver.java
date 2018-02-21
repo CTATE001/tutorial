@@ -13,6 +13,7 @@ public class Driver
 
       // raise salary by 5%
       //harry.raiseSalary(5); Step 3
+      harry.raiseSalary(10); //step 4
 
       // print out information about harry
       // use java.lang.System.out here
